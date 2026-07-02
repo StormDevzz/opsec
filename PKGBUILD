@@ -8,7 +8,7 @@ url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 license=('WTFPL')
 depends=('gcc-libs')
 source=("https://github.com/StormDevzz/opsec/archive/v$pkgver.tar.gz")
-md5sums=('SKIP')
+md5sums=('77b1e20589333c0008bb11d46a89f009')
 
 build() {
     cd "$srcdir/$pkgname-$pkgver"
