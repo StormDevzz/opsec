@@ -1,4 +1,4 @@
-# Maintainer: opsec enjoyer <anon@anon.anon>
+# Maintainer: abrakadam <abrakadam@users.noreply.github.com>
 pkgname=opsec
 pkgver=1.0.0
 pkgrel=1
@@ -7,7 +7,7 @@ arch=('x86_64')
 url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 license=('WTFPL')
 depends=('gcc-libs')
-source=("$pkgname-$pkgver.tar.gz")
+source=("https://github.com/StormDevzz/opsec/archive/v$pkgver.tar.gz")
 md5sums=('SKIP')
 
 build() {
